@@ -31,8 +31,8 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 ### **4. Test the API**
 Visit:
-- http://127.0.0.1:8000/
-- http://127.0.0.1:8000/health
+- http://127.0.0.1:8000/v1/
+- http://127.0.0.1:8000/v1/health
 
 ## Docker Setup
 
